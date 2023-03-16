@@ -32,13 +32,16 @@ body {
   background: gray;
   border-radius: 0px 0px 8px 8px;
 }
-.header-header__nav_menu {
+.hidden {
   display: none;
 }
 .header-header__nav {
   display: flex;
   justify-content: end;
   margin-right: 30px;
+}
+.header-header__nav_menu {
+  display: none;
 }
 .header-header__nav_ul {
   list-style-type: none;
@@ -67,9 +70,7 @@ a {
   align-items: center;
   text-align: center;
 }
-.main-menu__activ {
-    display: none;
-}
+
 .main-content__h1 {
   margin-top: 50px;
   font-family: "Roboto";
@@ -157,8 +158,8 @@ svg {
   }
 
   .header-header__nav_menu {
-    display: block;
     margin-right: -170px;
+    display: block;
   }
   .main-content__p {
     width: 350px;
@@ -177,13 +178,10 @@ svg {
     background: gray;
     z-index: 4;
     position: absolute;
-    display: none;
     left: 220px;
     top: 85px;
   }
-  .hidden {
-    display: block;
-  }
+
   .main-menu__activ_h4 {
     margin-top: 20px;
     margin-bottom: 30px;

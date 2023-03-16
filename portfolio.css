@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f9ff;
+}
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+.header-header {
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  background: gray;
+  border-radius: 0px 0px 8px 8px;
+}
+.header-header__nav_menu {
+  display: none;
+}
+.header-header__nav {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+.header-header__nav_ul {
+  list-style-type: none;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.01em;
+}
+a {
+  color: #ffffff;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-menu__activ {
+  display: none;
+}
+.main-content__h1 {
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 52px;
+  margin-bottom: 50px;
+  color: rgb(72, 96, 114);
+}
+.main-content__photo {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main-img,
+.main-content__photo {
+  width: 350px;
+  height: auto;
+}
+.main-content__h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 50px;
+}
+.img-portfolio {
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.main-content__p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin-top: 20px;
+  width: 600px;
+}
+.footer-footer {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background: gray;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 50px;
+}
+.footer-footer__nav {
+  margin-left: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+svg {
+  fill: #ffffff;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .conteiner {
+    width: 768px;
+  }
+  .header-header {
+    width: 768px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .header-header__nav_ul {
+    width: 550px;
+  }
+  .main-content {
+    width: 768px;
+  }
+  .main-content__text_h2 {
+    font-size: 38px;
+  }
+  .main-content__text_h1 {
+    font-size: 50px;
+  }
+  .main-content__text_button {
+    width: 250px;
+  }
+  .footer-footer {
+    width: 768px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .conteiner {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+  }
+  .header-header {
+    width: 375px;
+  }
+  .header-header__nav_ul {
+    display: none;
+  }
+
+  .header-header__nav_menu {
+    display: block;
+    margin-right: -170px;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  .main-content__h3 {
+    width: 365px;
+  }
+  .main-content__p {
+    width: 350px;
+    height: auto;
+  }
+  .main-img,
+  .main-content__photo {
+    width: 350px;
+    height: auto;
+  }
+  .footer-footer {
+    width: 375px;
+  }
+  .footer-footer__nav {
+    margin-left: 0px;
+  }
+
+  .main-menu__activ {
+    width: 150px;
+    height: auto;
+    background: gray;
+    z-index: 4;
+    position: absolute;
+    display: none;
+    left: 220px;
+    top: 85px;
+  }
+  .hidden {
+    display: block;
+  }
+  .main-menu__activ_h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .main-menu__activ_list {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .footer-footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

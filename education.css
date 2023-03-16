@@ -69,9 +69,6 @@ a {
   align-items: center;
   text-align: center;
 }
-.main-menu__activ {
-  display: none;
-}
 .hidden {
   display: none;
 }
@@ -198,12 +195,8 @@ svg {
     background: gray;
     z-index: 4;
     position: absolute;
-    display: none;
     left: 220px;
     top: 85px;
-  }
-  .hidden {
-    display: block;
   }
   .main-menu__activ_h4 {
     margin-top: 20px;

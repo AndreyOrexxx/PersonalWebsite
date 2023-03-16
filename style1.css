@@ -69,9 +69,7 @@ a {
   text-align: center;
   gap: 60px;
 }
-.main-menu__activ {
-  display: none;
-}
+
 .hidden {
   display: none;
 }
@@ -239,13 +237,12 @@ svg {
     background: gray;
     z-index: 4;
     position: absolute;
-    display: none;
     left: 220px;
     top: 85px;
   }
-  .hidden {
+  /* .hidden {
     display: block;
-  }
+  } */
   .main-menu__activ_h4 {
     margin-top: 20px;
     margin-bottom: 30px;

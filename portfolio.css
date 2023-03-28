@@ -103,6 +103,10 @@ a {
   border-radius: 10px;
   margin-top: 20px;
 }
+.img-portfolio:hover {
+  width: 360px;
+  z-index: 1;
+}
 .main-content__p {
   font-family: "Roboto";
   font-style: normal;

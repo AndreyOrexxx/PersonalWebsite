@@ -104,8 +104,8 @@ a {
   margin-top: 20px;
 }
 .img-portfolio:hover {
-  width: 360px;
-  z-index: 1;
+  border: 2px solid green;
+  font-weight: bold;
 }
 .main-content__p {
   font-family: "Roboto";
